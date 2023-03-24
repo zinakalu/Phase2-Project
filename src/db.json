@@ -3,7 +3,7 @@
     {
       "id":1,
       "name": "zina_kalu",
-      "profileDisplayImg": "",
+      "profilepicture": "",
       "profilepictures": {
 
       },
@@ -22,12 +22,15 @@
       "name": "oladimeji_odusote",
       "profileDisplayImg": "",
       "profilepictures": {
+        "id": "",
+        "comments": {
 
+        }
       },
-      "comments":{
-        "name": "",
-        "comment": ""
-      },
+      // "comments":{
+      //   "name": "",
+      //   "comment": ""
+      // },
       "followers":{
 
       },
@@ -199,5 +202,6 @@
     }
 
 
-  ]
+  ],
+  "personalposts": []
 }
