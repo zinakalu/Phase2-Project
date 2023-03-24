@@ -1,0 +1,203 @@
+{
+  "users":[
+    {
+      "id":1,
+      "name": "zina_kalu",
+      "profileDisplayImg": "",
+      "profilepictures": {
+
+      },
+      "comments":{
+        
+      },
+      "followers":{
+
+      },
+      "following":{
+
+      }
+    },
+    {
+      "id":2,
+      "name": "oladimeji_odusote",
+      "profileDisplayImg": "",
+      "profilepictures": {
+
+      },
+      "comments":{
+        "name": "",
+        "comment": ""
+      },
+      "followers":{
+
+      },
+      "following":{
+        
+      }
+    },
+
+    {
+      "id":3,
+      "name": "steven_levy",
+      "profileDisplayImg": "",
+      "profilepictures": {
+
+      },
+      "comments":{
+        
+      },
+      "followers":{
+
+      },
+      "following":{
+        
+      }
+    },
+
+    {
+      "id":4,
+      "name": "jackbauer",
+      "profileDisplayImg": "",
+      "profilepictures": {
+
+      },
+      "comments":{
+        
+      },
+      "followers":{
+
+      },
+      "following":{
+        
+      }
+    },
+
+    {
+      "id":5,
+      "name": "yael_harosh",
+      "profileDisplayImg": "",
+      "profilepictures": {
+
+      },
+      "comments":{
+        
+      },
+      "followers":{
+
+      },
+      "following":{
+        
+      }
+    },
+
+    {
+      "id":6,
+      "name": "reefhall",
+      "profileDisplayImg": "",
+      "profilepictures": {
+
+      },
+      "comments":{
+        
+      },
+      "followers":{
+
+      },
+      "following":{
+        
+      }
+    },
+
+    {
+      "id":7,
+      "name": "qiydaarwilliams",
+      "profileDisplayImg": "",
+      "profilepictures": {
+
+      },
+      "comments":{
+        
+      },
+      "followers":{
+
+      },
+      "following":{
+        
+      }
+    },
+
+    {
+      "id":8,
+      "name": "leecampbell",
+      "profileDisplayImg": "",
+      "profilepictures": {
+
+      },
+      "comments":{
+        
+      },
+      "followers":{
+
+      },
+      "following":{
+        
+      }
+    },
+
+    {
+      "id":9,
+      "name": "nehemiah_henry",
+      "profileDisplayImg": "",
+      "profilepictures": {
+
+      },
+      "comments":{
+        
+      },
+      "followers":{
+
+      },
+      "following":{
+        
+      }
+    },
+
+    {
+      "id":10,
+      "name": "chettmiller",
+      "profileDisplayImg": "",
+      "profilepictures": {
+
+      },
+      "comments":{
+        
+      },
+      "followers":{
+
+      },
+      "following":{
+        
+      }
+    },
+
+    {
+      "id":11,
+      "name": "charlie_kozey",
+      "profileDisplayImg": "",
+      "profilepictures": {
+
+      },
+      "comments":{
+        
+      },
+      "followers":{
+
+      },
+      "following":{
+        
+      }
+    },
+
+
+  ]
+}
