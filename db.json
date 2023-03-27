@@ -1,0 +1,1376 @@
+{
+  "users":[
+    {
+      "id":1,
+      "username": "zina_kalu",
+      "profilepicture": "https://images.unsplash.com/photo-1486578077620-8a022ddd481f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80",
+      "bio": "Think Big, Stay Positive",
+      "followers":{
+        "list": [
+          {"id": 2, "username": "oladimeji_odusote"},
+          {"id": 3, "username": "steven_levy"}
+        ]
+      },
+      "following":{
+        "list": [
+          {"id": 5, "username": "yael_harosh"},
+          {"id": 6, "username": "reefhall"}
+        ]
+      },
+      "pictures":[
+        {
+          "id": 1,
+          "imageurl": "https://images.unsplash.com/photo-1670791332518-ecc5b6c96e80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80",
+          "description": "",
+          "likes": 8,
+          "comments":[
+            {
+              "username": "charlie_kozey",
+              "comment": "Great picture!"
+            },
+            {
+              "username": "steven_levy",
+              "comment": "Love this!"
+            }
+          ]
+
+        },
+        {
+          "id": 2,
+          "imageurl": "https://images.unsplash.com/photo-1654537931610-d2ebb325d0a5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+          "description": "",
+          "likes": 10,
+          "comments":[
+            {
+              "username": "jackbauer",
+              "comment": "Beautiful"
+            },
+            {
+              "username": "leecampbell",
+              "comment": "Amazing picture!"
+            }
+          ]
+
+        },
+        {
+          "id": 3,
+          "imageurl": "https://images.unsplash.com/photo-1575956357346-61464dcf5c00?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+          "description": "",
+          "likes": 10,
+          "comments":[
+            {
+              "username": "jackbauer",
+              "comment": "Where'd you take this picture?"
+            },
+            {
+              "username": "leecampbell",
+              "comment": "Awesome stuff dude!"
+            }
+          ]
+
+        },
+        {
+          "id": 4,
+          "imageurl": "https://images.unsplash.com/photo-1679663966317-5067cbc043b6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+          "description": "",
+          "likes": 10,
+          "comments":[
+            {
+              "username": "jackbauer",
+              "comment": "Where'd you take this picture?"
+            },
+            {
+              "username": "leecampbell",
+              "comment": "Awesome stuff dude!"
+            }
+          ]
+
+        },
+        {
+          "id": 5,
+          "imageurl": "https://images.unsplash.com/photo-1678251541680-5b48c9241ac8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+          "description": "",
+          "likes": 10,
+          "comments":[
+            {
+              "username": "jackbauer",
+              "comment": "Where'd you take this picture?"
+            },
+            {
+              "username": "leecampbell",
+              "comment": "Awesome stuff dude!"
+            }
+          ]
+
+        },
+        {
+          "id": 6,
+          "imageurl": "https://images.unsplash.com/photo-1490077476659-095159692ab5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1451&q=80",
+          "description": "",
+          "likes": 10,
+          "comments":[
+            {
+              "username": "jackbauer",
+              "comment": "Where'd you take this picture?"
+            },
+            {
+              "username": "leecampbell",
+              "comment": "Awesome stuff dude!"
+            }
+          ]
+
+        }
+
+      ]
+    },
+
+
+
+    {
+      "id":2,
+      "username": "oladimeji_odusote",
+      "profilepicture": "https://images.unsplash.com/photo-1515865644861-8bedc4fb8344?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=748&q=80",
+      "bio":"Success is not final; failure is not fatal: It is the courage to continue that counts",
+      "followers":{
+        "list": [
+          {"id": 1, "username": "zina_kalu"},
+          {"id": 4, "username": "jackbauer"}
+        ]
+      },
+      "following":{
+        "list": [
+          {"id": 7, "username": "qiydaarwilliams"}
+        ]
+      },
+      "pictures":[
+        {
+          "id": 1,
+          "imageurl": "https://images.unsplash.com/photo-1679398380337-d953e0f65e60?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=685&q=80",
+          "description": "",
+          "likes": 10,
+          "comments":[
+            {
+              "username": "jackbauer",
+              "comment": "Where'd you take this picture?"
+            },
+            {
+              "username": "leecampbell",
+              "comment": "Awesome stuff dude!"
+            }
+          ]
+
+        },
+        {
+          "id": 2,
+          "imageurl": "https://images.unsplash.com/photo-1484406566174-9da000fda645?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=689&q=80",
+          "description": "",
+          "likes": 10,
+          "comments":[
+            {
+              "username": "jackbauer",
+              "comment": "Where'd you take this picture?"
+            },
+            {
+              "username": "leecampbell",
+              "comment": "Awesome stuff dude!"
+            }
+          ]
+
+        },
+        {
+          "id": 3,
+          "imageurl": "https://images.unsplash.com/photo-1542500186-6edb30855637?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+          "description": "",
+          "likes": 10,
+          "comments":[
+            {
+              "username": "jackbauer",
+              "comment": "Where'd you take this picture?"
+            },
+            {
+              "username": "leecampbell",
+              "comment": "Awesome stuff dude!"
+            }
+          ]
+
+        },
+        {
+          "id": 4,
+          "imageurl": "https://images.unsplash.com/photo-1678406498046-78d787f6e12a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+          "description": "",
+          "likes": 10,
+          "comments":[
+            {
+              "username": "jackbauer",
+              "comment": "Where'd you take this picture?"
+            },
+            {
+              "username": "leecampbell",
+              "comment": "Awesome stuff dude!"
+            }
+          ]
+
+        },
+        {
+          "id": 5,
+          "imageurl": "https://images.unsplash.com/photo-1678297491694-7d9edd4557f3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80",
+          "description": "",
+          "likes": 10,
+          "comments":[
+            {
+              "username": "jackbauer",
+              "comment": "Where'd you take this picture?"
+            },
+            {
+              "username": "leecampbell",
+              "comment": "Awesome stuff dude!"
+            }
+          ]
+
+        },
+        {
+          "id": 6,
+          "imageurl": "https://images.unsplash.com/photo-1547721064-da6cfb341d50?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+          "description": "",
+          "likes": 10,
+          "comments":[
+            {
+              "username": "jackbauer",
+              "comment": "Where'd you take this picture?"
+            },
+            {
+              "username": "leecampbell",
+              "comment": "Awesome stuff dude!"
+            }
+          ]
+
+        }
+
+      ]
+    },
+
+    {
+      "id":3,
+      "username": "steven_levy",
+      "profilepicture": "https://images.unsplash.com/photo-1516233758813-a38d024919c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688&q=80",
+      "bio":"The road to success and the road to failure are almost exactly the same",
+      "followers":{
+        "list": [
+          {"id": 4, "username": "jackbauer"},
+          {"id": 8, "username": "leecampbell"}
+        ]
+      },
+      "following":{
+        "list": [
+          {"id": 7, "username": "qiydaarwilliams"},
+          {"id": 4, "username": "jackbauer"},
+          {"id": 1, "username": "zina_kalu"}
+        ]
+      },
+      "pictures":[
+        {
+          "id": 1,
+          "imageurl": "https://images.unsplash.com/photo-1602491453631-e2a5ad90a131?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=627&q=80",
+          "description": "",
+          "likes": 10,
+          "comments":[
+            {
+              "username": "jackbauer",
+              "comment": "Where'd you take this picture?"
+            },
+            {
+              "username": "leecampbell",
+              "comment": "Awesome stuff dude!"
+            }
+          ]
+
+        },
+        {
+          "id": 2,
+          "imageurl": "https://images.unsplash.com/photo-1437622368342-7a3d73a34c8f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1528&q=80",
+          "description": "",
+          "likes": 10,
+          "comments":[
+            {
+              "username": "jackbauer",
+              "comment": "Where'd you take this picture?"
+            },
+            {
+              "username": "leecampbell",
+              "comment": "Awesome stuff dude!"
+            }
+          ]
+
+        },
+        {
+          "id": 3,
+          "imageurl": "https://images.unsplash.com/photo-1678292458983-5c04ede5fee3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80",
+          "description": "",
+          "likes": 10,
+          "comments":[
+            {
+              "username": "jackbauer",
+              "comment": "Where'd you take this picture?"
+            },
+            {
+              "username": "leecampbell",
+              "comment": "Awesome stuff dude!"
+            }
+          ]
+
+        },
+        {
+          "id": 4,
+          "imageurl": "https://images.unsplash.com/photo-1677665677780-b390a3854043?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+          "description": "",
+          "likes": 10,
+          "comments":[
+            {
+              "username": "jackbauer",
+              "comment": "Where'd you take this picture?"
+            },
+            {
+              "username": "leecampbell",
+              "comment": "Awesome stuff dude!"
+            }
+          ]
+
+        },
+        {
+          "id": 5,
+          "imageurl": "https://images.unsplash.com/photo-1542451313056-b7c8e626645f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=627&q=80",
+          "description": "",
+          "likes": 10,
+          "comments":[
+            {
+              "username": "jackbauer",
+              "comment": "Where'd you take this picture?"
+            },
+            {
+              "username": "leecampbell",
+              "comment": "Awesome stuff dude!"
+            }
+          ]
+
+        },
+        {
+          "id": 6,
+          "imageurl": "https://images.unsplash.com/photo-1542397284385-6010376c5337?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80",
+          "description": "",
+          "likes": 10,
+          "comments":[
+            {
+              "username": "jackbauer",
+              "comment": "Where'd you take this picture?"
+            },
+            {
+              "username": "leecampbell",
+              "comment": "Awesome stuff dude!"
+            }
+          ]
+
+        }
+
+      ]
+    },
+
+    {
+      "id":4,
+      "username": "jackbauer",
+      "profilepicture": "https://images.unsplash.com/photo-1619476402491-9dee65ce061c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80",
+      "bio": "Don’t let yesterday take up too much of today",
+      "followers":{
+        "list": [
+          {"id": 5, "username": "yael_harosh"},
+          {"id": 6, "username": "reefhall"},
+          {"id": 8, "username": "leecampbell"}
+        ]
+      },
+      "following":{
+        "list": [
+          {"id": 1, "username": "zina_kalu"},
+          {"id": 6, "username": "reefhall"},
+          {"id": 8, "username": "leecampbell"}
+        ]
+      },
+      "pictures":[
+        {
+          "id": 1,
+          "imageurl": "https://images.unsplash.com/photo-1537151608828-ea2b11777ee8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=694&q=80",
+          "description": "",
+          "likes": 10,
+          "comments":[
+            {
+              "username": "jackbauer",
+              "comment": "Where'd you take this picture?"
+            },
+            {
+              "username": "leecampbell",
+              "comment": "Awesome stuff dude!"
+            }
+          ]
+
+        },
+        {
+          "id": 2,
+          "imageurl": "https://images.unsplash.com/photo-1677555024309-19edb4a1d40e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=627&q=80",
+          "description": "",
+          "likes": 10,
+          "comments":[
+            {
+              "username": "jackbauer",
+              "comment": "Where'd you take this picture?"
+            },
+            {
+              "username": "leecampbell",
+              "comment": "Awesome stuff dude!"
+            }
+          ]
+
+        },
+        {
+          "id": 3,
+          "imageurl": "https://images.unsplash.com/photo-1542379653-b928db1b4956?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+          "description": "",
+          "likes": 10,
+          "comments":[
+            {
+              "username": "jackbauer",
+              "comment": "Where'd you take this picture?"
+            },
+            {
+              "username": "leecampbell",
+              "comment": "Awesome stuff dude!"
+            }
+          ]
+
+        },
+        {
+          "id": 4,
+          "imageurl": "https://images.unsplash.com/photo-1678915627649-c79691739372?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=627&q=80",
+          "description": "",
+          "likes": 10,
+          "comments":[
+            {
+              "username": "jackbauer",
+              "comment": "Where'd you take this picture?"
+            },
+            {
+              "username": "leecampbell",
+              "comment": "Awesome stuff dude!"
+            }
+          ]
+
+        },
+        {
+          "id": 5,
+          "imageurl": "https://images.unsplash.com/photo-1651342490133-2a3445aee060?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+          "description": "",
+          "likes": 10,
+          "comments":[
+            {
+              "username": "jackbauer",
+              "comment": "Where'd you take this picture?"
+            },
+            {
+              "username": "leecampbell",
+              "comment": "Awesome stuff dude!"
+            }
+          ]
+
+        },
+        {
+          "id": 6,
+          "imageurl": "https://images.unsplash.com/photo-1671797820999-34976e5218d9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80",
+          "description": "",
+          "likes": 10,
+          "comments":[
+            {
+              "username": "jackbauer",
+              "comment": "Where'd you take this picture?"
+            },
+            {
+              "username": "leecampbell",
+              "comment": "Awesome stuff dude!"
+            }
+          ]
+
+        }
+
+      ]
+    },
+
+    {
+      "id":5,
+      "username": "yael_harosh",
+      "profilepicture": "https://images.unsplash.com/photo-1612024782955-49fae79e42bb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+      "bio":"Goal setting is the secret to a compelling future",
+      "followers":{
+        "list": [
+          {"id": 1, "username": "zina_kalu"},
+          {"id": 6, "username": "reefhall"},
+          {"id": 8, "username": "leecampbell"}
+        ]
+      },
+      "following":{
+        "list": [
+          {"id": 4, "username": "jackbauer"},
+          {"id": 9, "username": "nehemiah_henry"},
+          {"id": 10, "username": "chettmiller"}
+        ]
+      },
+      "pictures":[
+        {
+          "id": 1,
+          "imageurl": "https://images.unsplash.com/photo-1505148230895-d9a785a555fa?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+          "description": "",
+          "likes": 10,
+          "comments":[
+            {
+              "username": "jackbauer",
+              "comment": "Where'd you take this picture?"
+            },
+            {
+              "username": "leecampbell",
+              "comment": "Awesome stuff dude!"
+            }
+          ]
+
+        },
+        {
+          "id": 2,
+          "imageurl": "https://images.unsplash.com/photo-1542370285-b8eb8317691c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1426&q=80",
+          "description": "",
+          "likes": 10,
+          "comments":[
+            {
+              "username": "jackbauer",
+              "comment": "Where'd you take this picture?"
+            },
+            {
+              "username": "leecampbell",
+              "comment": "Awesome stuff dude!"
+            }
+          ]
+
+        },
+        {
+          "id": 3,
+          "imageurl": "https://images.unsplash.com/photo-1661264770506-9c74d0cc8f9d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+          "description": "",
+          "likes": 10,
+          "comments":[
+            {
+              "username": "jackbauer",
+              "comment": "Where'd you take this picture?"
+            },
+            {
+              "username": "leecampbell",
+              "comment": "Awesome stuff dude!"
+            }
+          ]
+
+        },
+        {
+          "id": 4,
+          "imageurl": "https://images.unsplash.com/photo-1679663919162-6772e9293416?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+          "description": "",
+          "likes": 10,
+          "comments":[
+            {
+              "username": "jackbauer",
+              "comment": "Where'd you take this picture?"
+            },
+            {
+              "username": "leecampbell",
+              "comment": "Awesome stuff dude!"
+            }
+          ]
+
+        },
+        {
+          "id": 5,
+          "imageurl": "https://images.unsplash.com/photo-1654010889654-cbc6a6978367?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+          "description": "",
+          "likes": 10,
+          "comments":[
+            {
+              "username": "jackbauer",
+              "comment": "Where'd you take this picture?"
+            },
+            {
+              "username": "leecampbell",
+              "comment": "Awesome stuff dude!"
+            }
+          ]
+
+        },
+        {
+          "id": 6,
+          "imageurl": "https://images.unsplash.com/photo-1678906993394-42c52785a2f4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=627&q=80",
+          "description": "",
+          "likes": 10,
+          "comments":[
+            {
+              "username": "jackbauer",
+              "comment": "Where'd you take this picture?"
+            },
+            {
+              "username": "leecampbell",
+              "comment": "Awesome stuff dude!"
+            }
+          ]
+
+        }
+      ]
+    },
+
+    {
+      "id":6,
+      "username": "reefhall",
+      "profilepicture": "https://images.unsplash.com/photo-1615146101981-cf25d1a1e6a1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80",
+      "bio":"Either you run the day or the day runs you",
+      "followers":{
+        "list": [
+          {"id": 4, "username": "jackbauer"}
+        ]
+      },
+      "following":{
+        "list": [
+          {"id": 9, "username": "nehemiah_henry"},
+          {"id": 10, "username": "chettmiller"}
+        ]
+      },
+      "pictures":[
+        {
+          "id": 1,
+          "imageurl": "https://images.unsplash.com/photo-1521109464564-2fa2faa95858?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80",
+          "description": "",
+          "likes": 10,
+          "comments":[
+            {
+              "username": "jackbauer",
+              "comment": "Where'd you take this picture?"
+            },
+            {
+              "username": "leecampbell",
+              "comment": "Awesome stuff dude!"
+            }
+          ]
+
+        },
+        {
+          "id": 2,
+          "imageurl": "https://images.unsplash.com/photo-1676192186791-5ee58fb09c27?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80",
+          "description": "",
+          "likes": 10,
+          "comments":[
+            {
+              "username": "jackbauer",
+              "comment": "Where'd you take this picture?"
+            },
+            {
+              "username": "leecampbell",
+              "comment": "Awesome stuff dude!"
+            }
+          ]
+
+        },
+        {
+          "id": 3,
+          "imageurl": "https://images.unsplash.com/photo-1679237526223-8a5cbe0ef7a5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1523&q=80",
+          "description": "",
+          "likes": 10,
+          "comments":[
+            {
+              "username": "jackbauer",
+              "comment": "Where'd you take this picture?"
+            },
+            {
+              "username": "leecampbell",
+              "comment": "Awesome stuff dude!"
+            }
+          ]
+
+        },
+        {
+          "id": 4,
+          "imageurl": "https://images.unsplash.com/photo-1662323637608-e2c0cd663ed4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+          "description": "",
+          "likes": 10,
+          "comments":[
+            {
+              "username": "jackbauer",
+              "comment": "Where'd you take this picture?"
+            },
+            {
+              "username": "leecampbell",
+              "comment": "Awesome stuff dude!"
+            }
+          ]
+
+        },
+        {
+          "id": 5,
+          "imageurl": "https://images.unsplash.com/photo-1679214700584-78785d3021e1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80",
+          "description": "",
+          "likes": 10,
+          "comments":[
+            {
+              "username": "jackbauer",
+              "comment": "Where'd you take this picture?"
+            },
+            {
+              "username": "leecampbell",
+              "comment": "Awesome stuff dude!"
+            }
+          ]
+
+        },
+        {
+          "id": 6,
+          "imageurl": "https://images.unsplash.com/photo-1530595467537-0b5996c41f2d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+          "description": "",
+          "likes": 10,
+          "comments":[
+            {
+              "username": "jackbauer",
+              "comment": "Where'd you take this picture?"
+            },
+            {
+              "username": "leecampbell",
+              "comment": "Awesome stuff dude!"
+            }
+          ]
+
+        }
+
+      ]
+    },
+
+    {
+      "id":7,
+      "username": "qiydaarwilliams",
+      "profilepicture": "https://images.unsplash.com/photo-1619476266714-2a8b9f7731b9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80",
+      "bio": "He who conquers himself is the mightiest warrior",
+      "followers":{
+        "list": [
+          {"id": 4, "username": "jackbauer"}
+        ]
+      },
+      "following":{
+        "list": [
+          {"id": 4, "username": "jackbauer"},
+          {"id": 9, "username": "nehemiah_henry"},
+          {"id": 10, "username": "chettmiller"}
+        ]
+      },
+      "pictures":[
+        {
+          "id": 1,
+          "imageurl": "https://images.unsplash.com/photo-1678961950476-9b52a5384da5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80",
+          "description": "",
+          "likes": 10,
+          "comments":[
+            {
+              "username": "jackbauer",
+              "comment": "Where'd you take this picture?"
+            },
+            {
+              "username": "leecampbell",
+              "comment": "Awesome stuff dude!"
+            }
+          ]
+
+        },
+        {
+          "id": 2,
+          "imageurl": "https://images.unsplash.com/photo-1514195037031-83d60ed3b448?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80",
+          "description": "",
+          "likes": 10,
+          "comments":[
+            {
+              "username": "jackbauer",
+              "comment": "Where'd you take this picture?"
+            },
+            {
+              "username": "leecampbell",
+              "comment": "Awesome stuff dude!"
+            }
+          ]
+
+        },
+        {
+          "id": 3,
+          "imageurl": "https://images.unsplash.com/photo-1668616607169-b52d8b3e5d22?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+          "description": "",
+          "likes": 10,
+          "comments":[
+            {
+              "username": "jackbauer",
+              "comment": "Where'd you take this picture?"
+            },
+            {
+              "username": "leecampbell",
+              "comment": "Awesome stuff dude!"
+            }
+          ]
+
+        },
+        {
+          "id": 4,
+          "imageurl": "https://images.unsplash.com/photo-1678893211280-5fec33a30ca3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80",
+          "description": "",
+          "likes": 10,
+          "comments":[
+            {
+              "username": "jackbauer",
+              "comment": "Where'd you take this picture?"
+            },
+            {
+              "username": "leecampbell",
+              "comment": "Awesome stuff dude!"
+            }
+          ]
+
+        },
+        {
+          "id": 5,
+          "imageurl": "https://images.unsplash.com/photo-1675870793073-70306dbc541f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+          "description": "",
+          "likes": 10,
+          "comments":[
+            {
+              "username": "jackbauer",
+              "comment": "Where'd you take this picture?"
+            },
+            {
+              "username": "leecampbell",
+              "comment": "Awesome stuff dude!"
+            }
+          ]
+
+        },
+        {
+          "id": 6,
+          "imageurl": "https://images.unsplash.com/photo-1542641734-3b824eaabad0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80",
+          "description": "",
+          "likes": 10,
+          "comments":[
+            {
+              "username": "jackbauer",
+              "comment": "Where'd you take this picture?"
+            },
+            {
+              "username": "leecampbell",
+              "comment": "Awesome stuff dude!"
+            }
+          ]
+
+        }
+
+      ]
+    },
+
+    {
+      "id":8,
+      "username": "leecampbell",
+      "profilepicture": "https://images.unsplash.com/photo-1574068468026-2d19b85e69bf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2250&q=80",
+      "bio": "Education + Salavation = Success",
+      "followers":{
+        "list": [
+          {"id": 4, "username": "jackbauer"},
+          {"id": 9, "username": "nehemiah_henry"},
+          {"id": 10, "username": "chettmiller"}
+        ]
+      },
+      "following":{
+        "list": [
+          {"id": 1, "username": "zina_kalu"},
+          {"id": 9, "username": "nehemiah_henry"},
+          {"id": 11, "username": "charlie_kozey"}
+        ]
+      },
+      "pictures":[
+        {
+          "id": 1,
+          "imageurl": "https://images.unsplash.com/photo-1678889284769-b7dcbec1f082?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80",
+          "description": "",
+          "likes": 10,
+          "comments":[
+            {
+              "username": "jackbauer",
+              "comment": "Where'd you take this picture?"
+            },
+            {
+              "username": "leecampbell",
+              "comment": "Awesome stuff dude!"
+            }
+          ]
+
+        },
+        {
+          "id": 2,
+          "imageurl": "https://images.unsplash.com/photo-1506424482693-1f123321fa53?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1403&q=80",
+          "description": "",
+          "likes": 10,
+          "comments":[
+            {
+              "username": "jackbauer",
+              "comment": "Where'd you take this picture?"
+            },
+            {
+              "username": "leecampbell",
+              "comment": "Awesome stuff dude!"
+            }
+          ]
+
+        },
+        {
+          "id": 3,
+          "imageurl": "https://images.unsplash.com/photo-1678724362480-1682f9f0535a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80",
+          "description": "",
+          "likes": 10,
+          "comments":[
+            {
+              "username": "jackbauer",
+              "comment": "Where'd you take this picture?"
+            },
+            {
+              "username": "leecampbell",
+              "comment": "Awesome stuff dude!"
+            }
+          ]
+
+        },
+        {
+          "id": 4,
+          "imageurl": "https://images.unsplash.com/photo-1675540212407-a67ab877c418?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+          "description": "",
+          "likes": 10,
+          "comments":[
+            {
+              "username": "jackbauer",
+              "comment": "Where'd you take this picture?"
+            },
+            {
+              "username": "leecampbell",
+              "comment": "Awesome stuff dude!"
+            }
+          ]
+
+        },
+        {
+          "id": 5,
+          "imageurl": "https://images.unsplash.com/photo-1547382442-d17c21625a44?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+          "description": "",
+          "likes": 10,
+          "comments":[
+            {
+              "username": "jackbauer",
+              "comment": "Where'd you take this picture?"
+            },
+            {
+              "username": "leecampbell",
+              "comment": "Awesome stuff dude!"
+            }
+          ]
+
+        },
+        {
+          "id": 6,
+          "imageurl": "https://images.unsplash.com/photo-1542708993627-b6e5bbae43c4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1444&q=80",
+          "description": "",
+          "likes": 10,
+          "comments":[
+            {
+              "username": "jackbauer",
+              "comment": "Where'd you take this picture?"
+            },
+            {
+              "username": "leecampbell",
+              "comment": "Awesome stuff dude!"
+            }
+          ]
+
+        }
+
+      ]
+    },
+
+    {
+      "id":9,
+      "username": "nehemiah_henry",
+      "profilepicture": "https://images.unsplash.com/photo-1490718720478-364a07a997cd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+      "bio": "Only The Strong Survive",
+      "followers":{
+        "list": [
+          {"id": 4, "username": "jackbauer"},
+          {"id": 10, "username": "chettmiller"},
+          {"id": 11, "username": "charlie_kozey"}
+        ]
+      },
+      "following":{
+        "list": [
+          {"id": 2, "username": "oladimeji_odusote"},
+          {"id": 3, "username": "steven_levy"}
+        ]
+      },
+      "pictures":[
+        {
+          "id": 1,
+          "imageurl": "https://images.unsplash.com/photo-1673253408723-b5cfbfe00af6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=736&q=80",
+          "description": "",
+          "likes": 10,
+          "comments":[
+            {
+              "username": "jackbauer",
+              "comment": "Where'd you take this picture?"
+            },
+            {
+              "username": "leecampbell",
+              "comment": "Awesome stuff dude!"
+            }
+          ]
+
+        },
+        {
+          "id": 2,
+          "imageurl": "https://images.unsplash.com/photo-1679908208587-ee7199a0a0c8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80",
+          "description": "",
+          "likes": 10,
+          "comments":[
+            {
+              "username": "jackbauer",
+              "comment": "Where'd you take this picture?"
+            },
+            {
+              "username": "leecampbell",
+              "comment": "Awesome stuff dude!"
+            }
+          ]
+
+        },
+        {
+          "id": 3,
+          "imageurl": "https://images.unsplash.com/photo-1671483579112-0872cb05978f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1469&q=80",
+          "description": "",
+          "likes": 10,
+          "comments":[
+            {
+              "username": "jackbauer",
+              "comment": "Where'd you take this picture?"
+            },
+            {
+              "username": "leecampbell",
+              "comment": "Awesome stuff dude!"
+            }
+          ]
+
+        },
+        {
+          "id": 4,
+          "imageurl": "https://images.unsplash.com/photo-1592172578991-51bac865e437?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+          "description": "",
+          "likes": 10,
+          "comments":[
+            {
+              "username": "jackbauer",
+              "comment": "Where'd you take this picture?"
+            },
+            {
+              "username": "leecampbell",
+              "comment": "Awesome stuff dude!"
+            }
+          ]
+
+        },
+        {
+          "id": 5,
+          "imageurl": "https://images.unsplash.com/photo-1512723185835-0700e5069a9a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+          "description": "",
+          "likes": 10,
+          "comments":[
+            {
+              "username": "jackbauer",
+              "comment": "Where'd you take this picture?"
+            },
+            {
+              "username": "leecampbell",
+              "comment": "Awesome stuff dude!"
+            }
+          ]
+
+        },
+        {
+          "id": 6,
+          "imageurl": "https://images.unsplash.com/photo-1542676032-e505f4fe02a9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80",
+          "description": "",
+          "likes": 10,
+          "comments":[
+            {
+              "username": "jackbauer",
+              "comment": "Where'd you take this picture?"
+            },
+            {
+              "username": "leecampbell",
+              "comment": "Awesome stuff dude!"
+            }
+          ]
+
+        }
+
+      ]
+    },
+
+    {
+      "id":10,
+      "username": "chettmiller",
+      "profilepicture": "https://images.unsplash.com/photo-1607240367835-bdbf309c1e06?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80",
+      "bio": "I am so clever that sometimes I don't understand a single word of what I am saying",
+      "followers":{
+        "list": [
+          {"id": 2, "username": "oladimeji_odusote"},
+          {"id": 3, "username": "steven_levy"}
+        ]
+      },
+      "following":{
+        "list": [
+          {"id": 9, "username": "nehemiah_henry"},
+          {"id": 11, "username": "charlie_kozey"}
+        ]
+      },
+      "pictures":[
+        {
+          "id": 1,
+          "imageurl": "https://images.unsplash.com/photo-1601247387326-f8bcb5a234d4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1471&q=80",
+          "description": "",
+          "likes": 10,
+          "comments":[
+            {
+              "username": "jackbauer",
+              "comment": "Where'd you take this picture?"
+            },
+            {
+              "username": "leecampbell",
+              "comment": "Awesome stuff dude!"
+            }
+          ]
+
+        },
+        {
+          "id": 2,
+          "imageurl": "https://images.unsplash.com/photo-1679542485908-26d7e792ed02?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+          "description": "",
+          "likes": 10,
+          "comments":[
+            {
+              "username": "jackbauer",
+              "comment": "Where'd you take this picture?"
+            },
+            {
+              "username": "leecampbell",
+              "comment": "Awesome stuff dude!"
+            }
+          ]
+
+        },
+        {
+          "id": 3,
+          "imageurl": "https://images.unsplash.com/photo-1548802673-380ab8ebc7b7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80",
+          "description": "",
+          "likes": 10,
+          "comments":[
+            {
+              "username": "jackbauer",
+              "comment": "Where'd you take this picture?"
+            },
+            {
+              "username": "leecampbell",
+              "comment": "Awesome stuff dude!"
+            }
+          ]
+
+        },
+        {
+          "id": 4,
+          "imageurl": "https://images.unsplash.com/photo-1588238142232-7108fb7dcbb6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80",
+          "description": "",
+          "likes": 10,
+          "comments":[
+            {
+              "username": "jackbauer",
+              "comment": "Where'd you take this picture?"
+            },
+            {
+              "username": "leecampbell",
+              "comment": "Awesome stuff dude!"
+            }
+          ]
+
+        },
+        {
+          "id": 5,
+          "imageurl": "https://images.unsplash.com/photo-1542890886-40c9094e352a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+          "description": "",
+          "likes": 10,
+          "comments":[
+            {
+              "username": "jackbauer",
+              "comment": "Where'd you take this picture?"
+            },
+            {
+              "username": "leecampbell",
+              "comment": "Awesome stuff dude!"
+            }
+          ]
+
+        },
+        {
+          "id": 6,
+          "imageurl": "https://images.unsplash.com/photo-1592116696363-770b5de45cf9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=672&q=80",
+          "description": "",
+          "likes": 10,
+          "comments":[
+            {
+              "username": "jackbauer",
+              "comment": "Where'd you take this picture?"
+            },
+            {
+              "username": "leecampbell",
+              "comment": "Awesome stuff dude!"
+            }
+          ]
+
+        }
+
+      ]
+    },
+
+    {
+      "id":11,
+      "username": "charlie_kozey",
+      "profilepicture": "https://images.unsplash.com/photo-1620694563886-c3a80ec55f41?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+      "bio":"Talent wins games, but teamwork and intelligence win championships",
+      "followers":{
+        "list": [
+          {"id": 4, "username": "jackbauer"},
+          {"id": 6, "username": "reefhall"},
+          {"id": 8, "username": "leecampbell"}
+        ]
+      },
+      "following":{
+        "list": [
+          {"id": 2, "username": "oladimeji_odusote"},
+          {"id": 5, "username": "yael_harosh"}
+        ]
+      },
+      "pictures":[
+        {
+          "id": 1,
+          "imageurl": "https://images.unsplash.com/photo-1675092404212-382453b2ad2b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+          "description": "",
+          "likes": 10,
+          "comments":[
+            {
+              "username": "jackbauer",
+              "comment": "Where'd you take this picture?"
+            },
+            {
+              "username": "leecampbell",
+              "comment": "Awesome stuff dude!"
+            }
+          ]
+
+        },
+        {
+          "id": 2,
+          "imageurl": "https://images.unsplash.com/photo-1679472005171-915915085a6a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+          "description": "",
+          "likes": 10,
+          "comments":[
+            {
+              "username": "jackbauer",
+              "comment": "Where'd you take this picture?"
+            },
+            {
+              "username": "leecampbell",
+              "comment": "Awesome stuff dude!"
+            }
+          ]
+
+        },
+        {
+          "id": 3,
+          "imageurl": "https://images.unsplash.com/photo-1594712602437-2bada1ca7ea6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1467&q=80",
+          "description": "",
+          "likes": 10,
+          "comments":[
+            {
+              "username": "jackbauer",
+              "comment": "Where'd you take this picture?"
+            },
+            {
+              "username": "leecampbell",
+              "comment": "Awesome stuff dude!"
+            }
+          ]
+
+        },
+        {
+          "id": 4,
+          "imageurl": "https://images.unsplash.com/photo-1567696911980-2eed69a46042?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
+          "description": "",
+          "likes": 10,
+          "comments":[
+            {
+              "username": "jackbauer",
+              "comment": "Where'd you take this picture?"
+            },
+            {
+              "username": "leecampbell",
+              "comment": "Awesome stuff dude!"
+            }
+          ]
+
+        },
+        {
+          "id": 5,
+          "imageurl": "https://images.unsplash.com/photo-1527086983597-b4d44c4a66d0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
+          "description": "",
+          "likes": 10,
+          "comments":[
+            {
+              "username": "jackbauer",
+              "comment": "Where'd you take this picture?"
+            },
+            {
+              "username": "leecampbell",
+              "comment": "Awesome stuff dude!"
+            }
+          ]
+
+        },
+        {
+          "id": 6,
+          "imageurl": "https://images.unsplash.com/photo-1542961996-3f032eec02cb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=688&q=80",
+          "description": "",
+          "likes": 10,
+          "comments":[
+            {
+              "username": "jackbauer",
+              "comment": "Where'd you take this picture?"
+            },
+            {
+              "username": "leecampbell",
+              "comment": "Awesome stuff dude!"
+            }
+          ]
+
+        }
+
+      ]
+    }
+
+  ]
+}

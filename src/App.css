@@ -36,3 +36,109 @@
     transform: rotate(360deg);
   }
 }
+
+.profileBanner{
+  display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 200px 100px;
+    position: relative;
+}
+
+.follow{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+    background-color: #61dafb;
+    flex-direction: column;
+}
+
+p.followers, p.following{
+  margin: 0;
+}
+
+.followNum{
+  display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: red;
+    flex-direction: column;
+}
+.profile-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100vw;
+  /* height: 5vh; */
+}
+
+.profilePicture{
+  width: 120px;
+  height: 100px;
+border-radius: 60%;
+}
+
+.userName{
+
+}
+
+.followers{
+
+}
+
+.following{
+
+}
+
+.profilePostsGrid{
+  width: 90%;
+  margin: 0 auto;
+  display:grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+
+.profilePostsGrid img{
+  width: 100%;
+  height: 60%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.fa-heart{
+  position: relative;
+  right: 155px;
+  bottom: 10px;
+}
+
+.fa-heart:hover, .fa-comment:hover, .fa-bookmark:hover{
+  cursor: pointer;
+}
+
+.fa-comment{
+  position: relative;
+  right: 151px;
+  bottom: 10px;
+}
+
+.fa-bookmark{
+  position: relative;
+  right: 143px;
+  bottom: 10px;
+}
+
+.likes{
+  position: relative;
+  right: 147px;
+  bottom: 20px;
+}
+
+.profilePosts{
+  text-align: center;
+  background-color: rgb(250, 248, 248);
+  box-shadow: 5px 5px 5px rgb(206, 204, 204);
+  width: 380px;
+  height: 700px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
