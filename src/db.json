@@ -5,14 +5,12 @@
       "username": "zina_kalu",
       "profilepicture": "https://picsum.photos/id/219/200/300",
       "followers":{
-        "count": 100,
         "list": [
           {"id": 2, "username": "oladimeji_odusote"},
           {"id": 3, "username": "steven_levy"}
         ]
       },
       "following":{
-        "count": 50,
         "list": [
           {"id": 5, "username": "yael_harosh"},
           {"id": 6, "username": "reefhall"}
@@ -47,14 +45,12 @@
       "username": "oladimeji_odusote",
       "profilepicture": "https://picsum.photos/id/203/200/300",
       "followers":{
-        "count": 75,
         "list": [
           {"id": 1, "username": "zina_kalu"},
           {"id": 4, "username": "jackbauer"}
         ]
       },
       "following":{
-        "count": 20,
         "list": [
           {"id": 7, "username": "qiydaarwilliams"}
         ]
@@ -86,14 +82,12 @@
       "username": "steven_levy",
       "profilepicture": "https://picsum.photos/id/91/200/300",
       "followers":{
-        "count": 230,
         "list": [
           {"id": 4, "username": "jackbauer"},
           {"id": 8, "username": "leecampbell"}
         ]
       },
       "following":{
-        "count": 120,
         "list": [
           {"id": 7, "username": "qiydaarwilliams"},
           {"id": 4, "username": "jackbauer"},
@@ -127,7 +121,6 @@
       "username": "jackbauer",
       "profilepicture": "https://picsum.photos/id/177/200/300",
       "followers":{
-        "count": 63,
         "list": [
           {"id": 5, "username": "yael_harosh"},
           {"id": 6, "username": "reefhall"},
@@ -135,7 +128,6 @@
         ]
       },
       "following":{
-        "count": 150,
         "list": [
           {"id": 1, "username": "zina_kalu"},
           {"id": 6, "username": "reefhall"},
@@ -169,7 +161,6 @@
       "username": "yael_harosh",
       "profilepicture": "https://picsum.photos/id/237/200/300",
       "followers":{
-        "count": 96,
         "list": [
           {"id": 1, "username": "zina_kalu"},
           {"id": 6, "username": "reefhall"},
@@ -177,7 +168,6 @@
         ]
       },
       "following":{
-        "count": 150,
         "list": [
           {"id": 4, "username": "jackbauer"},
           {"id": 9, "username": "nehemiah_henry"},
@@ -266,13 +256,11 @@
       "username": "qiydaarwilliams",
       "profilepicture": "https://picsum.photos/id/304/200/300",
       "followers":{
-        "count": 85,
         "list": [
           {"id": 4, "username": "jackbauer"}
         ]
       },
       "following":{
-        "count": 24,
         "list": [
           {"id": 4, "username": "jackbauer"},
           {"id": 9, "username": "nehemiah_henry"},
@@ -306,7 +294,6 @@
       "username": "leecampbell",
       "profilepicture": "https://picsum.photos/id/349/200/300",
       "followers":{
-        "count": 114,
         "list": [
           {"id": 4, "username": "jackbauer"},
           {"id": 9, "username": "nehemiah_henry"},
@@ -314,7 +301,6 @@
         ]
       },
       "following":{
-        "count": 24,
         "list": [
           {"id": 1, "username": "zina_kalu"},
           {"id": 9, "username": "nehemiah_henry"},
@@ -348,7 +334,6 @@
       "username": "nehemiah_henry",
       "profilepicture": "https://picsum.photos/id/274/200/300",
       "followers":{
-        "count": 200,
         "list": [
           {"id": 4, "username": "jackbauer"},
           {"id": 10, "username": "chettmiller"},
@@ -356,7 +341,6 @@
         ]
       },
       "following":{
-        "count": 100,
         "list": [
           {"id": 2, "username": "oladimeji_odusote"},
           {"id": 3, "username": "steven_levy"}
@@ -389,14 +373,12 @@
       "username": "chettmiller",
       "profilepicture": "https://picsum.photos/id/334/200/300",
       "followers":{
-        "count": 1050,
         "list": [
           {"id": 2, "username": "oladimeji_odusote"},
           {"id": 3, "username": "steven_levy"}
         ]
       },
       "following":{
-        "count": 100,
         "list": [
           {"id": 9, "username": "nehemiah_henry"},
           {"id": 11, "username": "charlie_kozey"}
@@ -429,7 +411,6 @@
       "username": "charlie_kozey",
       "profilepicture": "https://picsum.photos/id/338/200/300",
       "followers":{
-        "count": 900,
         "list": [
           {"id": 4, "username": "jackbauer"},
           {"id": 6, "username": "reefhall"},
@@ -437,7 +418,6 @@
         ]
       },
       "following":{
-        "count": 340,
         "list": [
           {"id": 2, "username": "oladimeji_odusote"},
           {"id": 5, "username": "yael_harosh"}
