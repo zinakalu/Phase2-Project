@@ -215,4 +215,19 @@ border-radius: 60%;
 }
 
 
+.cameraIcon{
+  position:relative;
+  right: 500px;
+  top: 300px;
+  height: 40px;
+}
+
+.urlInput{
+  width: 400px;
+  height: 50px;
+  position: relative;
+  top: 300px;
+
+}
+
 
