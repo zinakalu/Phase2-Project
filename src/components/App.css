@@ -48,7 +48,6 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-    background-color: #61dafb;
     flex-direction: column;
 }
 
@@ -60,9 +59,13 @@ p.followers, p.following{
   display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: red;
     flex-direction: column;
 }
+
+.followNum:hover{
+  cursor: pointer;
+}
+
 .profile-container {
   display: flex;
   align-items: center;
@@ -77,17 +80,6 @@ p.followers, p.following{
 border-radius: 60%;
 }
 
-.userName{
-
-}
-
-.followers{
-
-}
-
-.following{
-
-}
 
 .profilePostsGrid{
   width: 90%;
@@ -108,7 +100,6 @@ border-radius: 60%;
 .fa-heart{
   position: relative;
   right: 155px;
-  bottom: 10px;
 }
 
 .fa-heart:hover, .fa-comment:hover, .fa-bookmark:hover{
@@ -118,27 +109,110 @@ border-radius: 60%;
 .fa-comment{
   position: relative;
   right: 151px;
-  bottom: 10px;
 }
 
 .fa-bookmark{
   position: relative;
   right: 143px;
-  bottom: 10px;
 }
 
 .likes{
   position: relative;
   right: 147px;
-  bottom: 20px;
+}
+
+.userName{
+  position: relative;
+  right: 320px;
+  bottom: 15px;
+}
+
+.bio{
+  font-size: 1.2em;
+  position: relative;
+  right: 250px;
+  bottom: 15px;
 }
 
 .profilePosts{
   text-align: center;
   background-color: rgb(250, 248, 248);
-  box-shadow: 5px 5px 5px rgb(206, 204, 204);
+  /* box-shadow: 5px 5px 5px rgb(206, 204, 204); */
   width: 380px;
   height: 700px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
 }
+
+.pictureModal {
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(5px);
+}
+
+.modalContent {
+  background-color: #8a5be0;
+  transition: background-color 0.5s ease;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.modalContent:hover{
+  background-color: #4b0082;
+  cursor:pointer;
+}
+
+.modalContent img {
+  transition: transform 0.5s ease;
+  width: 30%;
+  height: 30%;
+}
+
+/* .modalContent img:hover{
+  transform: scale(2.4);
+} */
+
+.modalContent p {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.modalContent button {
+  margin-top: 20px;
+  background-color: #1c1c1c;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.xBtn{
+  position: relative;
+  left: 300px;
+  bottom: 200px;
+}
+
+.modalContent button:hover {
+  background-color: #333;
+}
+
+.commentInput{
+  position: relative;
+  top: 20px;
+}
+
+
+

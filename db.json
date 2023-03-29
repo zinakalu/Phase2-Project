@@ -7,14 +7,22 @@
       "bio": "Think Big, Stay Positive",
       "followers":{
         "list": [
-          {"id": 2, "username": "oladimeji_odusote"},
-          {"id": 3, "username": "steven_levy"}
+          {"id": 2},
+          {"id": 3},
+          {"id": 4},
+          {"id": 5},
+          {"id": 6},
+          {"id": 7},
+          {"id": 8},
+          {"id": 9},
+          {"id": 10},
+          {"id": 11}
         ]
       },
       "following":{
         "list": [
-          {"id": 5, "username": "yael_harosh"},
-          {"id": 6, "username": "reefhall"}
+          {"id": 5},
+          {"id": 6}
         ]
       },
       "pictures":[
@@ -133,13 +141,29 @@
       "bio":"Success is not final; failure is not fatal: It is the courage to continue that counts",
       "followers":{
         "list": [
-          {"id": 1, "username": "zina_kalu"},
-          {"id": 4, "username": "jackbauer"}
+          {"id": 3},
+          {"id": 4},
+          {"id": 5},
+          {"id": 6},
+          {"id": 7},
+          {"id": 8},
+          {"id": 9},
+          {"id": 10},
+          {"id": 11}
         ]
       },
       "following":{
         "list": [
-          {"id": 7, "username": "qiydaarwilliams"}
+          {"id": 7},
+            {"id": 2},
+            {"id": 3},
+            {"id": 4},
+            {"id": 5},
+            {"id": 6},
+            {"id": 8},
+            {"id": 9},
+            {"id": 10},
+            {"id": 11}
         ]
       },
       "pictures":[
@@ -256,15 +280,23 @@
       "bio":"The road to success and the road to failure are almost exactly the same",
       "followers":{
         "list": [
-          {"id": 4, "username": "jackbauer"},
-          {"id": 8, "username": "leecampbell"}
+          {"id": 1},
+          {"id": 2},
+          {"id": 4},
+          {"id": 5},
+          {"id": 6},
+          {"id": 7},
+          {"id": 8},
+          {"id": 9},
+          {"id": 10},
+          {"id": 11}
         ]
       },
       "following":{
         "list": [
-          {"id": 7, "username": "qiydaarwilliams"},
-          {"id": 4, "username": "jackbauer"},
-          {"id": 1, "username": "zina_kalu"}
+          {"id": 7},
+          {"id": 4},
+          {"id": 1}
         ]
       },
       "pictures":[
@@ -381,16 +413,21 @@
       "bio": "Don’t let yesterday take up too much of today",
       "followers":{
         "list": [
-          {"id": 5, "username": "yael_harosh"},
-          {"id": 6, "username": "reefhall"},
-          {"id": 8, "username": "leecampbell"}
+          {"id": 2},
+          {"id": 3},
+          {"id": 5},
+          {"id": 6},
+          {"id": 8},
+          {"id": 9},
+          {"id": 10},
+          {"id": 11}
         ]
       },
       "following":{
         "list": [
-          {"id": 1, "username": "zina_kalu"},
-          {"id": 6, "username": "reefhall"},
-          {"id": 8, "username": "leecampbell"}
+          {"id": 1},
+          {"id": 6},
+          {"id": 8}
         ]
       },
       "pictures":[
@@ -506,17 +543,26 @@
       "profilepicture": "https://images.unsplash.com/photo-1612024782955-49fae79e42bb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
       "bio":"Goal setting is the secret to a compelling future",
       "followers":{
-        "list": [
-          {"id": 1, "username": "zina_kalu"},
-          {"id": 6, "username": "reefhall"},
-          {"id": 8, "username": "leecampbell"}
+       "list": [
+          {"id":1},
+          {"id": 2},
+          {"id": 3},
+          {"id": 4},
+          {"id": 6},
+          {"id": 7},
+          {"id": 8},
+          {"id": 9},
+          {"id": 10},
+          {"id": 11}
         ]
       },
       "following":{
         "list": [
-          {"id": 4, "username": "jackbauer"},
-          {"id": 9, "username": "nehemiah_henry"},
-          {"id": 10, "username": "chettmiller"}
+          {"id": 4},
+          {"id": 9},
+          {"id": 10},
+          {"id": 10},
+          {"id": 11}
         ]
       },
       "pictures":[
@@ -632,14 +678,23 @@
       "bio":"Either you run the day or the day runs you",
       "followers":{
         "list": [
-          {"id": 4, "username": "jackbauer"}
+          {"id": 3},
+          {"id": 4}
         ]
       },
       "following":{
-        "list": [
-          {"id": 9, "username": "nehemiah_henry"},
-          {"id": 10, "username": "chettmiller"}
-        ]
+        "list":[
+            {"id":1},
+            {"id": 2},
+            {"id": 3},
+            {"id": 4},
+            {"id": 6},
+            {"id": 7},
+            {"id": 8},
+            {"id": 9},
+            {"id": 10},
+            {"id": 11}
+          ]
       },
       "pictures":[
         {
@@ -755,14 +810,26 @@
       "bio": "He who conquers himself is the mightiest warrior",
       "followers":{
         "list": [
-          {"id": 4, "username": "jackbauer"}
+          {"id": 2},
+          {"id": 3},
+          {"id": 4},
+          {"id": 5},
+          {"id": 6},
+          {"id": 10},
+          {"id": 11}
         ]
       },
       "following":{
         "list": [
-          {"id": 4, "username": "jackbauer"},
-          {"id": 9, "username": "nehemiah_henry"},
-          {"id": 10, "username": "chettmiller"}
+          {"id": 2},
+          {"id": 3},
+          {"id": 4},
+          {"id": 5},
+          {"id": 6},
+          {"id": 8},
+          {"id": 9},
+          {"id": 10},
+          {"id": 11}
         ]
       },
       "pictures":[
@@ -879,16 +946,24 @@
       "bio": "Education + Salavation = Success",
       "followers":{
         "list": [
-          {"id": 4, "username": "jackbauer"},
-          {"id": 9, "username": "nehemiah_henry"},
-          {"id": 10, "username": "chettmiller"}
+          {"id": 2},
+          {"id": 3},
+          {"id": 4},
+          {"id": 5},
+          {"id": 6},
+          {"id": 7},
+          {"id": 9},
+          {"id": 10},
+          {"id": 11}
         ]
       },
       "following":{
         "list": [
-          {"id": 1, "username": "zina_kalu"},
-          {"id": 9, "username": "nehemiah_henry"},
-          {"id": 11, "username": "charlie_kozey"}
+          {"id": 2},
+          {"id": 3},
+          {"id": 4},
+          {"id": 5},
+          {"id": 6}
         ]
       },
       "pictures":[
@@ -1005,15 +1080,26 @@
       "bio": "Only The Strong Survive",
       "followers":{
         "list": [
-          {"id": 4, "username": "jackbauer"},
-          {"id": 10, "username": "chettmiller"},
-          {"id": 11, "username": "charlie_kozey"}
+          {"id": 1},
+          {"id": 2},
+          {"id": 3},
+          {"id": 4},
+          {"id": 5},
+          {"id": 6},
+          {"id": 7},
+          {"id": 8},
+          {"id": 10},
+          {"id": 11}
         ]
       },
       "following":{
         "list": [
-          {"id": 2, "username": "oladimeji_odusote"},
-          {"id": 3, "username": "steven_levy"}
+          {"id": 1},
+          {"id": 2},
+          {"id": 3},
+          {"id": 4},
+          {"id": 5},
+          {"id": 6}
         ]
       },
       "pictures":[
@@ -1130,14 +1216,25 @@
       "bio": "I am so clever that sometimes I don't understand a single word of what I am saying",
       "followers":{
         "list": [
-          {"id": 2, "username": "oladimeji_odusote"},
-          {"id": 3, "username": "steven_levy"}
+          {"id": 1},
+          {"id": 2},
+          {"id": 3},
+          {"id": 4},
+          {"id": 5},
+          {"id": 6}
         ]
       },
       "following":{
         "list": [
-          {"id": 9, "username": "nehemiah_henry"},
-          {"id": 11, "username": "charlie_kozey"}
+          {"id": 1},
+          {"id": 2},
+          {"id": 3},
+          {"id": 4},
+          {"id": 5},
+          {"id": 6},
+          {"id": 7},
+          {"id": 8},
+          {"id": 11}
         ]
       },
       "pictures":[
@@ -1254,15 +1351,24 @@
       "bio":"Talent wins games, but teamwork and intelligence win championships",
       "followers":{
         "list": [
-          {"id": 4, "username": "jackbauer"},
-          {"id": 6, "username": "reefhall"},
-          {"id": 8, "username": "leecampbell"}
+          {"id": 1},
+          {"id": 2},
+          {"id": 3},
+          {"id": 4},
+          {"id": 5},
+          {"id": 6},
+          {"id": 7},
+          {"id": 8}
         ]
       },
       "following":{
         "list": [
-          {"id": 2, "username": "oladimeji_odusote"},
-          {"id": 5, "username": "yael_harosh"}
+          {"id": 1},
+          {"id": 4},
+          {"id": 6},
+          {"id": 7},
+          {"id": 8},
+          {"id": 10}
         ]
       },
       "pictures":[
