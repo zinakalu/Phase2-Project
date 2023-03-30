@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import {useFetcher, useParams, useNavigate} from 'react-router-dom';
+import {useParams} from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHeart, faComment, faBookmark } from '@fortawesome/free-regular-svg-icons';
 import Posts from './Posts';
@@ -9,7 +9,6 @@ function Profilepage() {
   const [usersArr, setUsersArr] = useState([])
   const [profilePosts, setProfile] = useState([])
   const params = useParams()
-  console.log(params)
   
   useEffect(()=>{
     fetch("http://localhost:3001/users/")
@@ -24,9 +23,7 @@ function Profilepage() {
   },[])
   
   const user = usersArr.find(user => user.id === parseInt(params.id))
-  console.log(usersArr)
-  console.log(profilePosts)
-  //console.log(user.username)
+
   
   if(!user){
     return <div>Loading...</div>
@@ -35,15 +32,23 @@ function Profilepage() {
 
   const filteredProfilePost = profilePosts.filter(post => post.username === user.username)
 
-  const profilePostsList = filteredProfilePost.map(post => {
-    return <Posts key ={post.id} post={post}/>
-  })
 
-  console.log(profilePostsList)
+  function onAddLike(updatedPost){
+    const updatedPosts = profilePosts.map(post =>{
+      if(post.id === updatedPost.id){
+        return updatedPost
+      }
+      else {
+        return post
+      }
+    })
+
+    setProfile(updatedPosts)
+  }
   
-
-
-
+  const profilePostsList = filteredProfilePost.map(post => {
+    return <Posts addComment={onAddLike} addLike = {onAddLike} key ={post.id} post={post}/>
+  })
 
   return (
     <div className="container">
