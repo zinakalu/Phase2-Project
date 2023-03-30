@@ -9,7 +9,7 @@ function AddNewImgForm({addNewImg}) {
   const navigate = useNavigate()
 
 
-  function postToMainFeedBtn(){
+  function backToMainFeedBtn(){
     navigate("/main_feed")
   }
 
@@ -36,15 +36,18 @@ function AddNewImgForm({addNewImg}) {
     console.log(newImg)
   }
   return (
-  <form onSubmit={handleSubmit}>
     <div>
-      <input type="text" onChange={handleChangeURL} placeholder="Enter Image URL" className="urlInput" />
-    </div>
-    <div>
-      <input type="text" onChange={handleChangeCaption} placeholder="Enter Caption" className="captionInput" />
-    </div>
-    <button onClick={postToMainFeedBtn} >Post to Main Feed</button>
-  </form>
+      <form onSubmit={handleSubmit}>
+        <div>
+          <input type="text" onChange={handleChangeURL} placeholder="Enter Image URL" className="urlInput" />
+        </div>
+        <div>
+          <input type="text" onChange={handleChangeCaption} placeholder="Enter Caption" className="captionInput" />
+        </div>
+        <input type="submit" value="Post to Main" />
+      </form>
+    <button onClick={backToMainFeedBtn} >Back to Main Feed</button>
+  </div>
   )
 }
 export default AddNewImgForm
