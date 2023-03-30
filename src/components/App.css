@@ -225,6 +225,9 @@ border-radius: 60%;
   height: 40px;
 }
 
+.cameraIcon:hover{
+  cursor:pointer;
+}
 .houseIcon {
   height: 40px;
 }
@@ -293,6 +296,8 @@ border-radius: 60%;
 color: red;
 }
 
+
+
 .posts_popup {
   position: absolute;
   top: 100;
@@ -312,4 +317,12 @@ color: red;
 .posts_save_button{
   position: relative;
   right: 200px;
+}
+
+.main__feed p{
+font-size: 2.5em;
+ position: relative;
+top: 20px; 
+font-family: 'Alkatra', cursive;
+color: rgb(69, 5, 103)
 }

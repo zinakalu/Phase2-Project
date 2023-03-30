@@ -34,6 +34,9 @@
     border: 1px solid lightgray;
     margin-bottom: 45px;
     margin-left: 30%;
+    position: relative;
+    top: 50px;
+    border-radius: 5px;
 }
 
 .posts_likes{
@@ -50,9 +53,21 @@
 
 .posts_comment_input{
     position: relative;
-    right: 170px;
+    right: 175px;
+    box-sizing: border-box;
+    padding: 4px;
+    margin: 20px;
 }
 
 .posts_comment_section{
     border: 1px solid lightgray
+}
+
+.all-posts {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.posts_img{
+    height: 280px;
 }

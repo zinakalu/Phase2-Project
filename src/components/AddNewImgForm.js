@@ -33,6 +33,7 @@ function AddNewImgForm({addNewImg}) {
     }
     e.target.reset()
     addNewImg(newImg)
+  
     console.log(newImg)
   }
   return (
