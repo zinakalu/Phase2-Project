@@ -225,16 +225,72 @@ border-radius: 60%;
   height: 40px;
 }
 
-
 .cameraIcon:hover{
   cursor:pointer;
 }
+.houseIcon {
+  height: 40px;
+}
+
+.houseIcon:hover{
+  cursor: pointer;
+}
+
+.userNameSearch{
+  cursor: pointer;
+}
+
 .urlInput{
   width: 400px;
   height: 50px;
   position: relative;
   top: 300px;
 }
+
+.captionInput{
+  width: 400px;
+  height: 100px;
+  position: relative;
+  top: 300px;
+}
+
+.post__photo {
+    background: #fff;
+    font-size: 14px;
+    margin-top: 150px;
+    margin-left: 25px;
+    padding: 10px;
+    border-radius: 26px;
+    border: 1px solid #D4D3E8;
+    text-transform: uppercase;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    width: 120px;
+    color: #4C489D;
+    box-shadow: 0px 2px 2px #5C5696;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.backToMain__Feed {
+    background: #fff;
+    font-size: 14px;
+    margin-top: 100px;
+    margin-left: 35px;
+    padding: 10px;
+    border-radius: 26px;
+    border: 1px solid #D4D3E8;
+    text-transform: uppercase;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    width: 100px;
+    color: #4C489D;
+    box-shadow: 0px 2px 2px #5C5696;
+    cursor: pointer;
+    transition: .2s;
+} 
 
 .posts_like_button:active, .posts_like_button.liked{
 color: red;
