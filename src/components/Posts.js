@@ -1,13 +1,15 @@
-import React from 'react'
+import React, {useState} from 'react'
 import "./Posts.css"
 import { Avatar } from '@mui/material';
 
 
-function Posts({post, addLike}) {
+function Posts({post, addLike, addComment}) {
 
   const commentSection = post.comments.map(comment =>{
     return  <h4 key = {comment.comment} className="posts_text"><strong>{comment.user}</strong> {comment.comment}</h4>
   })
+
+  const [comment, setComment] = useState("")
 
   function handleLike(e){
     fetch(`http://localhost:3001/posts/${post.id}`,{
@@ -20,6 +22,29 @@ function Posts({post, addLike}) {
     .then(response => response.json())
     .then(data => addLike(data))
    
+  }
+
+  function handleSubmit(e){
+    e.preventDefault()
+    const newComment = 
+      {
+        "user": "logged_in_user",
+        "comment": comment
+      }
+    fetch(`http://localhost:3001/posts/${post.id}`,{
+      method: "PATCH",
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        "comments": [...post.comments, newComment]
+      })
+    })
+    .then(response => response.json())
+    .then(data => addComment(data))
+    setComment("")
+  }
+
+  function handleChange(e){
+    setComment(e.target.value)
   }
 
   return (
@@ -42,8 +67,8 @@ function Posts({post, addLike}) {
         <div className='posts_comment_section'>
             {commentSection}
         </div>
-        <form>
-            <input className = "posts_comment_input" placeholder = "Add Comment..."></input>
+        <form onSubmit = {handleSubmit}>
+            <input className = "posts_comment_input" placeholder = "Add Comment..." value = {comment} onChange = {handleChange}></input>
         </form>
     </div>
   )

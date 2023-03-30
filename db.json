@@ -632,16 +632,20 @@
       "image": "https://images.unsplash.com/photo-1670791332518-ecc5b6c96e80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80",
       "username": "zina_kalu",
       "users_avi": "https://images.unsplash.com/photo-1486578077620-8a022ddd481f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80",
-      "likes": 17,
+      "likes": 35,
       "caption": "Vacation vibes",
       "comments": [
         {
-          "username": "charlie_kozey",
+          "user": "charlie_kozey",
           "comment": "Great picture!"
         },
         {
-          "username": "steven_levy",
+          "user": "steven_levy",
           "comment": "Love this!"
+        },
+        {
+          "user": "logged_in_user",
+          "comment": "Nice"
         }
       ]
     },
@@ -650,15 +654,15 @@
       "image": "https://images.unsplash.com/photo-1654537931610-d2ebb325d0a5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
       "username": "zina_kalu",
       "users_avi": "https://images.unsplash.com/photo-1486578077620-8a022ddd481f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80",
-      "likes": 10,
+      "likes": 11,
       "caption": "Vacation vibes",
       "comments": [
         {
-          "username": "jackbauer",
+          "user": "jackbauer",
           "comment": "Beautiful"
         },
         {
-          "username": "leecampbell",
+          "user": "leecampbell",
           "comment": "Amazing picture!"
         }
       ]
@@ -682,12 +686,16 @@
       "image": "https://images.unsplash.com/photo-1679398380337-d953e0f65e60?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=685&q=80",
       "username": "oladimeji_odusote",
       "users_avi": "https://images.unsplash.com/photo-1515865644861-8bedc4fb8344?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=748&q=80",
-      "likes": 5,
+      "likes": 11,
       "caption": "vibes",
       "comments": [
         {
           "user": "zina_kalu",
           "comment": "Where'd you take this picture?"
+        },
+        {
+          "user": "logged_in_user",
+          "comment": "The GOAT!"
         }
       ]
     },
@@ -696,7 +704,7 @@
       "image": "https://images.unsplash.com/photo-1484406566174-9da000fda645?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=689&q=80",
       "username": "oladimeji_odusote",
       "users_avi": "https://images.unsplash.com/photo-1515865644861-8bedc4fb8344?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=748&q=80",
-      "likes": 7,
+      "likes": 12,
       "caption": "studying!",
       "comments": [
         {
@@ -706,6 +714,10 @@
         {
           "user": "reefhall",
           "comment": "Lets go!"
+        },
+        {
+          "user": "logged_in_user",
+          "comment": "Ayy!!"
         }
       ]
     },
@@ -714,7 +726,7 @@
       "image": "https://images.unsplash.com/photo-1542500186-6edb30855637?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80",
       "username": "oladimeji_odusote",
       "users_avi": "https://images.unsplash.com/photo-1515865644861-8bedc4fb8344?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=748&q=80",
-      "likes": 5,
+      "likes": 17,
       "caption": "high as hell!",
       "comments": [
         {
@@ -822,11 +834,11 @@
       "caption": "Vacation vibes",
       "comments": [
         {
-          "username": "charlie_kozey",
+          "user": "charlie_kozey",
           "comment": "Great picture!"
         },
         {
-          "username": "steven_levy",
+          "user": "steven_levy",
           "comment": "Love this!"
         }
       ]
@@ -840,11 +852,11 @@
       "caption": "Vacation vibes",
       "comments": [
         {
-          "username": "jackbauer",
+          "user": "jackbauer",
           "comment": "Beautiful"
         },
         {
-          "username": "leecampbell",
+          "user": "leecampbell",
           "comment": "Amazing picture!"
         }
       ]
@@ -1008,11 +1020,11 @@
       "caption": "Vacation vibes",
       "comments": [
         {
-          "username": "charlie_kozey",
+          "user": "charlie_kozey",
           "comment": "Great picture!"
         },
         {
-          "username": "steven_levy",
+          "user": "steven_levy",
           "comment": "Love this!"
         }
       ]
@@ -1026,11 +1038,11 @@
       "caption": "Vacation vibes",
       "comments": [
         {
-          "username": "jackbauer",
+          "user": "jackbauer",
           "comment": "Beautiful"
         },
         {
-          "username": "leecampbell",
+          "user": "leecampbell",
           "comment": "Amazing picture!"
         }
       ]
@@ -1201,6 +1213,22 @@
       "caption": "",
       "comments": [],
       "id": 35
+    },
+    {
+      "image": "",
+      "username": "PLACEHOLDER",
+      "users_avi": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMjsW6R85NXGAEbGN_2m2roKoF0BeyHFojFQ&usqp=CAU",
+      "caption": "",
+      "comments": [],
+      "id": 36
+    },
+    {
+      "image": "",
+      "username": "PLACEHOLDER",
+      "users_avi": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMjsW6R85NXGAEbGN_2m2roKoF0BeyHFojFQ&usqp=CAU",
+      "caption": "",
+      "comments": [],
+      "id": 37
     }
   ]
 }
