@@ -230,3 +230,28 @@ border-radius: 60%;
   position: relative;
   top: 300px;
 }
+
+.posts_like_button:active, .posts_like_button.liked{
+color: red;
+}
+
+.posts_popup {
+  position: absolute;
+  top: 100;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.7);
+  color: white;
+  font-size: 2rem;
+  z-index: 10;
+}
+
+
+.posts_save_button{
+  position: relative;
+  right: 200px;
+}

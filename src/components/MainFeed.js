@@ -35,8 +35,7 @@ function MainFeed() {
   },[])
 
 
-  function onAddLike(updatedPost){
-    console.log(updatedPost)
+  function onUpdatePost(updatedPost){
     const updatedPosts = posts.map(post =>{
       if(post.id === updatedPost.id){
         return updatedPost
@@ -49,39 +48,40 @@ function MainFeed() {
   }
 
   const listofPosts = posts.map(post => {
-    return <Posts addLike = {onAddLike} key = {post.id} post ={post}/>
+    return <Posts addComment = {onUpdatePost} addLike = {onUpdatePost} key = {post.id} post ={post}/>
   })
 
   function handleCameraClick(){
     navigate("/add-pictures")
   }
 
-  // function addNewImg(newImg){
-  //   fetch("http://localhost:3001/posts",{
-  //     method: "POST",
-  //     headers:{
-  //       "Content-Type": "application/json"
-  //     },
-  //     body: JSON.stringify(newImg)
-  //   })
-  //   .then(res => res.json())
-  //   .then(newImgData => setPosts([...posts, newImgData]))
-  // }
+
 
   <NewImgPage posts={posts} setPosts={setPosts}/>
+  function addNewImg(newImg){
+    fetch("http://localhost:3001/posts",{
+      method: "POST",
+      headers:{
+        "Content-Type": "application/json"
+      },
+      body: JSON.stringify(newImg)
+    })
+    .then(res => res.json())
+    .then(newImgData => setPosts([newImgData, ...posts]))
+  }
 
   return (
-    <div class='main__feed'>Main Feed
+    <div className='main__feed'>Main Feed
 
-      <div class='sideBar'>
+      <div className='sideBar'>
 
         <UserSearch search={search} setSearch={setSearch}/>
         {search ==="" ? null : <UsersContainer usersArray={usersArr} search = {search} />}
 
         <FontAwesomeIcon icon={faCamera} onClick = {handleCameraClick} className ="cameraIcon"/>
         
-        <button onClick={handleClickLogOut} class="button__logout">
-          <span class="logoutButton__text">Log Out</span>
+        <button onClick={handleClickLogOut} className="button__logout">
+          <span className="logoutButton__text">Log Out</span>
         </button>
 
       </div>
