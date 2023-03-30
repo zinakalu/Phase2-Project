@@ -4,10 +4,9 @@ import { Avatar } from '@mui/material';
 import { faHeart, faBookmark } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
-function Posts({post, addLike, addComment}) {
+function Posts({post, addLike, addComment, username}) {
    const [liked, setLiked] = useState(false);
   const [saved, setSaved] = useState(false);
-
 
   const commentSection = post.comments.map(comment =>{
     return  <h4 key = {comment.comment} className="posts_text"><strong>{comment.user}</strong> {comment.comment}</h4>
@@ -30,9 +29,7 @@ function Posts({post, addLike, addComment}) {
         setLiked(false);
       }, 3000)
     })
-   
   }
-
 
 function handleSave(e){
   setSaved(true);
@@ -45,7 +42,7 @@ function handleSave(e){
     e.preventDefault()
     const newComment = 
       {
-        "user": "logged_in_user",
+        "user": username,
         "comment": comment
       }
     fetch(`http://localhost:3001/posts/${post.id}`,{

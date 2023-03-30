@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Posts from './Posts';
 
 
-function Profilepage() {
+function Profilepage({username}) {
 
   const navigate = useNavigate()
 
@@ -54,7 +54,7 @@ function Profilepage() {
   }
   
   const profilePostsList = filteredProfilePost.map(post => {
-    return <Posts addComment={onAddLike} addLike = {onAddLike} key ={post.id} post={post}/>
+    return <Posts username = {username} addComment={onAddLike} addLike = {onAddLike} key ={post.id} post={post}/>
   })
 
 

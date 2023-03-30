@@ -37,39 +37,39 @@ function CreateAcct() {
 
 
   return (
-    <div class="container">
-	<div class="screen">
-		<div class="screen__content">
-			<form class="createAcct">
-                <h1 class='login__title'>SOZ-a-gram</h1>
+    <div className="container">
+	<div className="screen">
+		<div className="screen__content">
+			<form className="createAcct">
+                <h1 className='login__title'>SOZ-a-gram</h1>
                 <h2>Sign Up:</h2>
-                <div class="createAcct__field">
-					<input type="text" class="createAcct__input" placeholder="Mobile Number or Email"/>
+                <div className="createAcct__field">
+					<input type="text" className="createAcct__input" placeholder="Mobile Number or Email"/>
 				</div>
                 <div class="createAcct__field">
-					<input type="text" class="createAcct__input" placeholder="Full Name"/>
+					<input type="text" className="createAcct__input" placeholder="Full Name"/>
 				</div>
 				<div class="createAcct__field">
-					<input type="text" class="createAcct__input" placeholder="Username"/>
+					<input type="text" className="createAcct__input" placeholder="Username"/>
 				</div>
 				<div class="createAcct__field">
-					<input type="password" class="createAcct__input" placeholder="Password" onChange={handlePasswordChange}/>
+					<input type="password" className="createAcct__input" placeholder="Password" onChange={handlePasswordChange}/>
 				</div>
-				<button onClick={handleClickCreateAcct} class="button login__submit">
-					<span class="button__text">Create Account</span>
+				<button onClick={handleClickCreateAcct} className="button login__submit">
+					<span className="button__text">Create Account</span>
 				</button>
                 <div>		
-                <button onClick={handleClickLogin} class="button login__submit">
-					<span class="button2__text">Have an account? Log in</span>
+                <button onClick={handleClickLogin} className="button login__submit">
+					<span className="button2__text">Have an account? Log in</span>
 				</button>
                 </div>		
 			</form>
 		</div>
-		<div class="screen__background">
-			<span class="screen__background__shape screen__background__shape4"></span>
-			<span class="screen__background__shape screen__background__shape3"></span>		
-			<span class="screen__background__shape screen__background__shape2"></span>
-			<span class="screen__background__shape screen__background__shape1"></span>
+		<div className="screen__background">
+			<span className="screen__background__shape screen__background__shape4"></span>
+			<span className="screen__background__shape screen__background__shape3"></span>		
+			<span className="screen__background__shape screen__background__shape2"></span>
+			<span className="screen__background__shape screen__background__shape1"></span>
 		</div>		
 	</div>
     </div>
