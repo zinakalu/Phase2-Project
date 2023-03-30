@@ -6,6 +6,7 @@ import UserSearch from './UserSearch'
 import { faCamera } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import AddNewImgForm from './AddNewImgForm'
+import NewImgPage from './NewImgPage'
 
 function MainFeed() {
 
@@ -54,6 +55,9 @@ function MainFeed() {
     navigate("/add-pictures")
   }
 
+
+
+  <NewImgPage posts={posts} setPosts={setPosts}/>
   function addNewImg(newImg){
     fetch("http://localhost:3001/posts",{
       method: "POST",
@@ -74,17 +78,16 @@ function MainFeed() {
         <UserSearch search={search} setSearch={setSearch}/>
         {search ==="" ? null : <UsersContainer usersArray={usersArr} search = {search} />}
 
+        <FontAwesomeIcon icon={faCamera} onClick = {handleCameraClick} className ="cameraIcon"/>
         
         <button onClick={handleClickLogOut} className="button__logout">
           <span className="logoutButton__text">Log Out</span>
         </button>
 
       </div>
-      <AddNewImgForm addNewImg={addNewImg}/>
-      <FontAwesomeIcon icon={faCamera} onClick = {handleCameraClick} className ="cameraIcon"/>
+
       {/* Main Feed Posts */}
       {listofPosts}
-
       
     </div>
 

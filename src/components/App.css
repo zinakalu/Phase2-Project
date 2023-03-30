@@ -123,17 +123,19 @@ border-radius: 60%;
   right: 147px;
 }
 
-.userName{
+.userName {
   position: relative;
-  right: 320px;
+  text-align: left;
+  left: 20%;
   bottom: 15px;
 }
 
-.bio{
+.bio {
   font-size: 1.2em;
   position: relative;
-  right: 250px;
-  bottom: 15px;
+  text-align: left;
+  left: 20%;
+  bottom: 70px;
 }
 
 .profilePosts{
@@ -216,10 +218,10 @@ border-radius: 60%;
   top: 20px;
 }
 
-.cameraIcon{
-  position:relative;
-  right: 500px;
-  top: 300px;
+.cameraIcon {
+  position: fixed;
+  left: 40px;
+  margin-top: 40px;
   height: 40px;
 }
 .urlInput{
