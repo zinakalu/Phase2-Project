@@ -253,3 +253,7 @@ color: red;
   position: relative;
   right: 200px;
 }
+
+.usernamess:hover{
+cursor: pointer;
+}

@@ -13,7 +13,7 @@ function UsersCard({user}) {
 
   return (
     <div>
-        <h3 onClick ={handleClick}>{user.username}</h3>
+        <h3 onClick ={handleClick} className="usernamess">{user.username}</h3>
 
     </div>
   )
