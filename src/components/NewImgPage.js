@@ -17,7 +17,8 @@ function NewImgPage({posts, setPosts, username}) {
       }
 
   return (
-    <div>NewImgPage
+    <div>
+      <p class="addImg">Add New Images Here</p>
 
         <AddNewImgForm username = {username} addNewImg={addNewImg}/>
 

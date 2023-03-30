@@ -62,7 +62,8 @@ function handleSave(e){
   }
 
   return (
-    <div className = "posts">
+    <div className="posts-container">
+      <div className = "posts">
         {/* header -> avatar + user */} 
         <div className='posts_header'>
             <Avatar
@@ -86,6 +87,7 @@ function handleSave(e){
         <form onSubmit = {handleSubmit}>
             <input className = "posts_comment_input" placeholder = "Add Comment..." value = {comment} onChange = {handleChange}></input>
         </form>
+    </div>
     </div>
   )
 }
