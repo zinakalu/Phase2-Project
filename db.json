@@ -642,6 +642,10 @@
         {
           "user": "steven_levy",
           "comment": "Love this!"
+        },
+        {
+          "user": "",
+          "comment": "Aaron"
         }
       ]
     },
@@ -683,7 +687,6 @@
       "username": "oladimeji_odusote",
       "users_avi": "https://images.unsplash.com/photo-1515865644861-8bedc4fb8344?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=748&q=80",
       "likes": 6,
-
       "caption": "NYC Chillin'",
       "comments": [
         {
@@ -1191,9 +1194,12 @@
         {
           "user": "yael_harosh",
           "comment": "Fly guy!"
+        },
+        {
+          "user": "john",
+          "comment": "Nice!"
         }
       ]
-
     }
   ]
 }

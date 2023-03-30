@@ -31,7 +31,7 @@ function App() {
 
           <Route path="profile-page/:id" element={<Profilepage username ={username}/>}/>
 
-          <Route path="add-pictures" element = {<NewImgPage/>}/>
+          <Route path="add-pictures" element = {<NewImgPage username={username}/>}/>
 
           <Route path='*' element={ <NoMatch /> }/>
       </Routes>

@@ -1,7 +1,7 @@
 import React from 'react'
 import AddNewImgForm from './AddNewImgForm'
 
-function NewImgPage({posts, setPosts}) {
+function NewImgPage({posts, setPosts, username}) {
 
     function addNewImg(newImg){
         fetch("http://localhost:3001/posts",{
@@ -19,7 +19,7 @@ function NewImgPage({posts, setPosts}) {
   return (
     <div>NewImgPage
 
-        <AddNewImgForm addNewImg={addNewImg}/>
+        <AddNewImgForm username = {username} addNewImg={addNewImg}/>
 
     </div>
   )
