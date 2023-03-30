@@ -5,7 +5,7 @@ import { faHeart, faComment, faBookmark } from '@fortawesome/free-regular-svg-ic
 import Posts from './Posts';
 
 
-function Profilepage() {
+function Profilepage({username}) {
   const [usersArr, setUsersArr] = useState([])
   const [profilePosts, setProfile] = useState([])
   const params = useParams()
@@ -47,7 +47,7 @@ function Profilepage() {
   }
   
   const profilePostsList = filteredProfilePost.map(post => {
-    return <Posts addComment={onAddLike} addLike = {onAddLike} key ={post.id} post={post}/>
+    return <Posts username = {username} addComment={onAddLike} addLike = {onAddLike} key ={post.id} post={post}/>
   })
 
   return (

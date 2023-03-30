@@ -6,20 +6,29 @@ import CreateAcct from './CreateAcct';
 import { Routes, Route } from 'react-router-dom';
 import Profilepage from './Profilepage';
 import AddNewImgForm from "./AddNewImgForm";
+import {useState} from "react"
 
 
 function App() {
+
+  const [username, setUsername] = useState("")
+
+
+  function onHandleUsername(username){
+    setUsername(username)
+  }
+
   return (
     <div className="App">
 
       <Routes>
-          <Route path='/' element={ <Login /> }/>
+          <Route path='/' element={ <Login onHandleUsername = {onHandleUsername} username={username}/> }/>
 
-          <Route path='main_feed' element={ <MainFeed /> }/>
+          <Route path='main_feed' element={ <MainFeed username ={username}/> }/>
 
           <Route path='create_account' element={ <CreateAcct /> }/>
 
-          <Route path="profile-page/:id" element={<Profilepage/>}/>
+          <Route path="profile-page/:id" element={<Profilepage username ={username}/>}/>
 
           <Route path="add-pictures" element = {<AddNewImgForm/>}/>
 

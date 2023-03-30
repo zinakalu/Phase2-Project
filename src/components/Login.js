@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 
-function Login() {
+function Login({username, onHandleUsername}) {
 	const [password, setPassword] = useState('')
 
     const navigate = useNavigate()
@@ -35,34 +35,38 @@ function Login() {
 			setPassword(e.target.value)
 		}
 
+		function handleUsername(e){
+			onHandleUsername(e.target.value)
+		}
+
   return (
-    <div class="container">
-	<div class="screen">
-		<div class="screen__content">
-			<form class="login">
-                <h1 class='login__title'>SOZ-a-gram</h1>
+    <div className="container">
+	<div className="screen">
+		<div className="screen__content">
+			<form className="login">
+                <h1 className='login__title'>SOZ-a-gram</h1>
                 <h2>Login Here:</h2>
-				<div class="login__field">
-					<input type="text" class="login__input" placeholder="Username / Email"/>
+				<div className="login__field">
+					<input type="text" className="login__input" placeholder="Username / Email" value = {username} onChange={handleUsername}/>
 				</div>
-				<div class="login__field">
-					<input type="password" class="login__input" placeholder="Password" onChange={handlePasswordChange}/>
+				<div className="login__field">
+					<input type="password" className="login__input" placeholder="Password" onChange={handlePasswordChange} value = {password}/>
 				</div>
-				<button onClick={handleClickLogin} class="button login__submit">
-					<span class="button__text">Log In Now</span>
+				<button onClick={handleClickLogin} className="button login__submit">
+					<span className="button__text">Log In Now</span>
 				</button>
                 <div>		
-                <button onClick={handleClickCreateAcct} class="button login__submit">
-					<span class="button__text">Create Account</span>
+                <button onClick={handleClickCreateAcct} className="button login__submit">
+					<span className="button__text">Create Account</span>
 				</button>	
                 </div>	
 			</form>
 		</div>
-		<div class="screen__background">
-			<span class="screen__background__shape screen__background__shape4"></span>
-			<span class="screen__background__shape screen__background__shape3"></span>		
-			<span class="screen__background__shape screen__background__shape2"></span>
-			<span class="screen__background__shape screen__background__shape1"></span>
+		<div className="screen__background">
+			<span className="screen__background__shape screen__background__shape4"></span>
+			<span className="screen__background__shape screen__background__shape3"></span>		
+			<span className="screen__background__shape screen__background__shape2"></span>
+			<span className="screen__background__shape screen__background__shape1"></span>
 		</div>		
 	</div>
     </div>

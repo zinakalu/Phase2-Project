@@ -7,7 +7,9 @@ import { faCamera } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import AddNewImgForm from './AddNewImgForm'
 
-function MainFeed() {
+function MainFeed({username}) {
+
+  
 
   const navigate = useNavigate()
   
@@ -47,7 +49,7 @@ function MainFeed() {
   }
 
   const listofPosts = posts.map(post => {
-    return <Posts addComment = {onUpdatePost} addLike = {onUpdatePost} key = {post.id} post ={post}/>
+    return <Posts username = {username} addComment = {onUpdatePost} addLike = {onUpdatePost} key = {post.id} post ={post}/>
   })
 
   function handleCameraClick(){
