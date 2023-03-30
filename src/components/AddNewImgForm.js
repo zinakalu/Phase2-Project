@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom'
 
 
 
-function AddNewImgForm({addNewImg}) {
+function AddNewImgForm({addNewImg, username}) {
 
 
   const navigate = useNavigate()
@@ -25,7 +25,8 @@ function AddNewImgForm({addNewImg}) {
 
     const newImg = {
       image: inputURL,
-      "username": "PLACEHOLDER",
+      "likes": 0,
+      "username": username,
       "users_avi": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMjsW6R85NXGAEbGN_2m2roKoF0BeyHFojFQ&usqp=CAU",
       "caption": inputCaption,
       "comments": [
