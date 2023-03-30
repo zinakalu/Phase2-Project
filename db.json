@@ -632,7 +632,6 @@
       "image": "https://images.unsplash.com/photo-1670791332518-ecc5b6c96e80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=735&q=80",
       "username": "zina_kalu",
       "users_avi": "https://images.unsplash.com/photo-1486578077620-8a022ddd481f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1374&q=80",
-
       "likes": 10,
       "caption": "Vacation vibes",
       "comments": [
@@ -688,7 +687,6 @@
       "username": "oladimeji_odusote",
       "users_avi": "https://images.unsplash.com/photo-1515865644861-8bedc4fb8344?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=748&q=80",
       "likes": 6,
-
       "caption": "vibes",
       "comments": [
         {
@@ -1214,7 +1212,8 @@
       "users_avi": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMjsW6R85NXGAEbGN_2m2roKoF0BeyHFojFQ&usqp=CAU",
       "caption": "Test 1 2 3",
       "comments": [],
-      "id": 35
+      "id": 35,
+      "likes": 3
     },
     {
       "image": "",
@@ -1231,6 +1230,14 @@
       "caption": "",
       "comments": [],
       "id": 37
+    },
+    {
+      "image": "",
+      "username": "PLACEHOLDER",
+      "users_avi": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMjsW6R85NXGAEbGN_2m2roKoF0BeyHFojFQ&usqp=CAU",
+      "caption": "HI",
+      "comments": [],
+      "id": 38
     }
   ]
 }

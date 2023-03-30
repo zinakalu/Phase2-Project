@@ -44,9 +44,9 @@ function AddNewImgForm({addNewImg}) {
         <div>
           <input type="text" onChange={handleChangeCaption} placeholder="Enter Caption" className="captionInput" />
         </div>
-        <input type="submit" value="Post to Main" />
+        <input className="post__photo" type="submit" value="Post to Main" />
       </form>
-    <button onClick={backToMainFeedBtn} >Back to Main Feed</button>
+         <button className="backToMain__Feed" onClick={backToMainFeedBtn} >Back to Main Feed</button>
   </div>
   )
 }
