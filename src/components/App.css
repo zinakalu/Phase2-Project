@@ -123,17 +123,19 @@ border-radius: 60%;
   right: 147px;
 }
 
-.userName{
+.userName {
   position: relative;
-  right: 320px;
+  text-align: left;
+  left: 20%;
   bottom: 15px;
 }
 
-.bio{
+.bio {
   font-size: 1.2em;
   position: relative;
-  right: 250px;
-  bottom: 15px;
+  text-align: left;
+  left: 20%;
+  bottom: 70px;
 }
 
 .profilePosts{
@@ -216,12 +218,28 @@ border-radius: 60%;
   top: 20px;
 }
 
-.cameraIcon{
-  position:relative;
-  right: 500px;
-  top: 300px;
+.cameraIcon {
+  position: fixed;
+  left: 40px;
+  margin-top: 40px;
   height: 40px;
 }
+
+.cameraIcon:hover{
+  cursor:pointer;
+}
+.houseIcon {
+  height: 40px;
+}
+
+.houseIcon:hover{
+  cursor: pointer;
+}
+
+.userNameSearch{
+  cursor: pointer;
+}
+
 .urlInput{
   width: 400px;
   height: 50px;
@@ -229,9 +247,56 @@ border-radius: 60%;
   top: 300px;
 }
 
+.captionInput{
+  width: 400px;
+  height: 100px;
+  position: relative;
+  top: 300px;
+}
+
+.post__photo {
+    background: #fff;
+    font-size: 14px;
+    margin-top: 150px;
+    margin-left: 25px;
+    padding: 10px;
+    border-radius: 26px;
+    border: 1px solid #D4D3E8;
+    text-transform: uppercase;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    width: 120px;
+    color: #4C489D;
+    box-shadow: 0px 2px 2px #5C5696;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.backToMain__Feed {
+    background: #fff;
+    font-size: 14px;
+    margin-top: 100px;
+    margin-left: 35px;
+    padding: 10px;
+    border-radius: 26px;
+    border: 1px solid #D4D3E8;
+    text-transform: uppercase;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    width: 100px;
+    color: #4C489D;
+    box-shadow: 0px 2px 2px #5C5696;
+    cursor: pointer;
+    transition: .2s;
+} 
+
 .posts_like_button:active, .posts_like_button.liked{
 color: red;
 }
+
+
 
 .posts_popup {
   position: absolute;
@@ -252,4 +317,12 @@ color: red;
 .posts_save_button{
   position: relative;
   right: 200px;
+}
+
+.main__feed p{
+font-size: 2.5em;
+ position: relative;
+top: 20px; 
+font-family: 'Alkatra', cursive;
+color: rgb(69, 5, 103)
 }

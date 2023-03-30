@@ -1,11 +1,18 @@
 import React, { useState, useEffect } from 'react';
-import {useParams} from 'react-router-dom';
+import {useParams, useNavigate} from 'react-router-dom';
+import { faHouse } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faHeart, faComment, faBookmark } from '@fortawesome/free-regular-svg-icons';
 import Posts from './Posts';
 
 
 function Profilepage({username}) {
+
+  const navigate = useNavigate()
+
+  function handleHouseClick(){
+    navigate("/main_feed")
+  }
+
   const [usersArr, setUsersArr] = useState([])
   const [profilePosts, setProfile] = useState([])
   const params = useParams()
@@ -50,6 +57,7 @@ function Profilepage({username}) {
     return <Posts username = {username} addComment={onAddLike} addLike = {onAddLike} key ={post.id} post={post}/>
   })
 
+
   return (
     <div className="container">
       <div className="profileBanner" >
@@ -64,6 +72,7 @@ function Profilepage({username}) {
               <h3>{user.following.list.length} </h3>
               <p className="following" >Following</p>
            </div>
+           <FontAwesomeIcon icon={faHouse} onClick={handleHouseClick} className ="houseIcon"/>
       </div>
 
         <h2 className="userName" >{user.username}</h2>

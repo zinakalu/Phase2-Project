@@ -5,6 +5,7 @@ import MainFeed from './MainFeed';
 import CreateAcct from './CreateAcct';
 import { Routes, Route } from 'react-router-dom';
 import Profilepage from './Profilepage';
+import NewImgPage from './NewImgPage';
 import AddNewImgForm from "./AddNewImgForm";
 import {useState} from "react"
 
@@ -30,7 +31,7 @@ function App() {
 
           <Route path="profile-page/:id" element={<Profilepage username ={username}/>}/>
 
-          <Route path="add-pictures" element = {<AddNewImgForm/>}/>
+          <Route path="add-pictures" element = {<NewImgPage/>}/>
 
           <Route path='*' element={ <NoMatch /> }/>
       </Routes>
