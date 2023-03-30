@@ -36,6 +36,8 @@ function Profilepage({username}) {
     return <div>Loading...</div>
   }
 
+  
+
 
   const filteredProfilePost = profilePosts.filter(post => post.username === user.username)
 
@@ -52,6 +54,7 @@ function Profilepage({username}) {
 
     setProfile(updatedPosts)
   }
+  
   
   const profilePostsList = filteredProfilePost.map(post => {
     return <Posts username = {username} addComment={onAddLike} addLike = {onAddLike} key ={post.id} post={post}/>

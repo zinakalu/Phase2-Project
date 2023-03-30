@@ -37,7 +37,10 @@
     position: relative;
     top: 50px;
     border-radius: 5px;
+    animation: slideinfromleft 1s ease-in-out;
 }
+
+
 
 .posts_likes{
     text-align: left;
@@ -71,3 +74,15 @@
 .posts_img{
     height: 280px;
 }
+
+
+
+@keyframes slideinfromleft{
+    0%{
+      transform:translateX(-100%);
+    }
+  
+    100%{
+      transform:translateX(0);
+    }
+  }

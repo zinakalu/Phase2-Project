@@ -234,6 +234,7 @@ border-radius: 60%;
 
 .houseIcon:hover{
   cursor: pointer;
+  opacity: 0.4;
 }
 
 .userNameSearch{
@@ -319,10 +320,14 @@ color: red;
   right: 200px;
 }
 
-.main__feed p{
+.main__feed p, .addImg{
 font-size: 2.5em;
  position: relative;
 top: 20px; 
 font-family: 'Alkatra', cursive;
 color: rgb(69, 5, 103)
+}
+
+.follow:hover{
+  cursor: pointer;
 }
