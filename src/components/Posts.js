@@ -1,9 +1,15 @@
-import React from 'react'
+import React, { useState } from 'react'
 import "./Posts.css"
 import { Avatar } from '@mui/material';
+import { faHeart, faBookmark } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 
 function Posts({post, addLike}) {
+  const [liked, setLiked] = useState(false);
+  const [saved, setSaved] = useState(false);
+
+
 
   const commentSection = post.comments.map(comment =>{
     return  <h4 key = {comment.comment} className="posts_text"><strong>{comment.user}</strong> {comment.comment}</h4>
@@ -18,9 +24,24 @@ function Posts({post, addLike}) {
       })
     })
     .then(response => response.json())
-    .then(data => addLike(data))
+    .then(data => {addLike(data);
+      setLiked(true);
+      setTimeout(()=>{
+        setLiked(false);
+      }, 3000)
+    })
    
   }
+
+
+function handleSave(e){
+  setSaved(true);
+  setTimeout(()=>{
+    setSaved(false);
+  }, 2000)
+}
+
+
 
   return (
     <div className = "posts">
@@ -36,7 +57,9 @@ function Posts({post, addLike}) {
         {/* image */} 
         <img className="posts_img" src = {post.image}/>
         {/* username + caption */}
-        <button onClick = {handleLike} className='posts_like_button'>🤍</button>
+        <FontAwesomeIcon icon={faHeart} onClick = {handleLike} className={`posts_like_button ${liked ? 'liked' : ''}`}  />
+        <FontAwesomeIcon icon={faBookmark} onClick = {handleSave} className='posts_save_button' />
+        {saved ? <div className="posts_popup">You've saved this post!</div> : null}
         <h4 className="posts_likes"><strong>{post.likes} likes</strong></h4>
         <h4 className="posts_text"><strong>{post.username}</strong> {post.caption}</h4>
         <div className='posts_comment_section'>

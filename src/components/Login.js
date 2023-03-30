@@ -1,7 +1,8 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 
 function Login() {
+	const [password, setPassword] = useState('')
 
     const navigate = useNavigate()
 
@@ -12,6 +13,27 @@ function Login() {
     function handleClickCreateAcct(){
         navigate( '/create_account' )
     }
+
+		function validatePassword(password){
+			if(password.length >= 5 && /[a-z]/.test(password) && /[A-Z]/.test(password) && /\W/.test(password)) {
+				return true
+			} else {
+				return false
+			}
+		}
+
+		function handleClickLogin(e){
+			e.preventDefault();
+			if(validatePassword(password)){
+				navigate('/main_feed')
+			} else{
+				alert('Invalid password! Password must contain one lowercase letter, one uppercase letter, one special character, and must be at least 5 characters long.')
+			}
+		}
+
+		function handlePasswordChange(e){
+			setPassword(e.target.value)
+		}
 
   return (
     <div class="container">
@@ -24,7 +46,7 @@ function Login() {
 					<input type="text" class="login__input" placeholder="Username / Email"/>
 				</div>
 				<div class="login__field">
-					<input type="password" class="login__input" placeholder="Password"/>
+					<input type="password" class="login__input" placeholder="Password" onChange={handlePasswordChange}/>
 				</div>
 				<button onClick={handleClickLogin} class="button login__submit">
 					<span class="button__text">Log In Now</span>

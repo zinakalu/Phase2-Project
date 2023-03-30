@@ -46,7 +46,8 @@ function Profilepage() {
 
 
   return (
-    <div className="profileBanner" >
+    <div className="container">
+      <div className="profileBanner" >
       <div className='profile-container'>
           <img src={user.profilepicture} alt={user.name} className="profilePicture" />
 
@@ -64,6 +65,8 @@ function Profilepage() {
             <p className="bio">{user.bio}</p>
         {/*Profile Posts*/}
         {profilePostsList}
+    </div>
+
     </div>
   )
 }

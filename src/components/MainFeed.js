@@ -64,7 +64,7 @@ function MainFeed() {
       body: JSON.stringify(newImg)
     })
     .then(res => res.json())
-    .then(newImgData => setPosts([...posts, newImgData]))
+    .then(newImgData => setPosts([newImgData, ...posts]))
   }
 
   return (
