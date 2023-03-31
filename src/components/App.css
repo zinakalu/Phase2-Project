@@ -227,6 +227,8 @@ border-radius: 60%;
 
 .cameraIcon:hover{
   cursor:pointer;
+  /* opacity: 0.5; */
+  color: rgb(86, 7, 89);
 }
 .houseIcon {
   height: 40px;
@@ -234,7 +236,7 @@ border-radius: 60%;
 
 .houseIcon:hover{
   cursor: pointer;
-  opacity: 0.4;
+  color: rgb(86, 7, 89);
 }
 
 .userNameSearch{
@@ -296,6 +298,11 @@ border-radius: 60%;
 .posts_like_button:active, .posts_like_button.liked{
 color: red;
 }
+
+/* .posts_like_btn{
+  position: relative;
+  right: 100px;
+} */
 
 
 

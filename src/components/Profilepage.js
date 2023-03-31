@@ -81,7 +81,10 @@ function Profilepage({username}) {
         <h2 className="userName" >{user.username}</h2>
             <p className="bio">{user.bio}</p>
         {/*Profile Posts*/}
+
+        <div className="profilePostsList">
         {profilePostsList}
+        </div>
     </div>
 
     </div>
