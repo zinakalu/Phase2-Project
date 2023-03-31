@@ -76,7 +76,7 @@ function handleSave(e){
         {/* image */} 
         <img className="posts_img" src = {post.image}/>
         {/* username + caption */}
-        <FontAwesomeIcon icon={faHeart} onClick = {handleLike} className={`posts_like_button ${liked ? 'liked' : ''}`}/>
+        <FontAwesomeIcon icon={faHeart} onClick = {handleLike} className={`posts_like_button ${liked ? 'liked' : ''} posts_like_btn`}/>
         <FontAwesomeIcon icon={faBookmark} onClick = {handleSave} className='posts_save_button' />
         {saved ? <div className="posts_popup">You've saved this post!</div> : null}
         <h4 className="posts_likes"><strong>{post.likes} likes</strong></h4>

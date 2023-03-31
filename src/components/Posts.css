@@ -30,7 +30,7 @@
 
 .posts {
     background-color: white;
-    max-width: 500px;
+    width: 501px;
     border: 1px solid lightgray;
     margin-bottom: 45px;
     margin-left: 30%;
@@ -56,7 +56,7 @@
 
 .posts_comment_input{
     position: relative;
-    right: 175px;
+    right: 145px;
     box-sizing: border-box;
     padding: 4px;
     margin: 20px;
@@ -86,3 +86,10 @@
       transform:translateX(0);
     }
   }
+
+.profilePostsList {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    position: relative;
+    right: 100px;
+}
